@@ -12,7 +12,7 @@ void Main()
         Console.WriteLine("Введите целое число или 'q' для выхода:");
         string input = Console.ReadLine();
 
-        if (input.ToLower() == "q")
+        if (input == "q")
         {
             Console.WriteLine("Выход из программы...");
             break;
